@@ -25,6 +25,10 @@
 		AFC3858E242F555500A97FA1 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC3858D242F555500A97FA1 /* ListViewController.swift */; };
 		AFC38590242F589500A97FA1 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC3858F242F589500A97FA1 /* AddItemViewController.swift */; };
 		AFC38593242F5DDE00A97FA1 /* EssentialsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC38592242F5DDE00A97FA1 /* EssentialsTableViewController.swift */; };
+		AFC38595242FA26C00A97FA1 /* Login Page.png in Resources */ = {isa = PBXBuildFile; fileRef = AFC38594242FA26C00A97FA1 /* Login Page.png */; };
+		AFC38597242FA2AB00A97FA1 /* SignUp Page.png in Resources */ = {isa = PBXBuildFile; fileRef = AFC38596242FA2AB00A97FA1 /* SignUp Page.png */; };
+		AFC3859A242FA75100A97FA1 /* Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = AFC38598242FA75000A97FA1 /* Screen.png */; };
+		AFC3859B242FA75100A97FA1 /* Screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = AFC38599242FA75100A97FA1 /* Screen2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +76,10 @@
 		AFC3858D242F555500A97FA1 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		AFC3858F242F589500A97FA1 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 		AFC38592242F5DDE00A97FA1 /* EssentialsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialsTableViewController.swift; sourceTree = "<group>"; };
+		AFC38594242FA26C00A97FA1 /* Login Page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login Page.png"; sourceTree = "<group>"; };
+		AFC38596242FA2AB00A97FA1 /* SignUp Page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SignUp Page.png"; sourceTree = "<group>"; };
+		AFC38598242FA75000A97FA1 /* Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen.png; sourceTree = "<group>"; };
+		AFC38599242FA75100A97FA1 /* Screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen2.png; sourceTree = "<group>"; };
 		B18BFC61096F7459AEB9E635 /* Pods_ShopStopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopStopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF69CEFC6EDCAE5DF821E5FB /* Pods-ShopStop-ShopStopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopStop-ShopStopUITests.release.xcconfig"; path = "Target Support Files/Pods-ShopStop-ShopStopUITests/Pods-ShopStop-ShopStopUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FD268CFB0816431845118CB9 /* Pods-ShopStop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopStop.release.xcconfig"; path = "Target Support Files/Pods-ShopStop/Pods-ShopStop.release.xcconfig"; sourceTree = "<group>"; };
@@ -140,6 +148,8 @@
 		AF0EBD76242A8DF400806ED6 /* ShopStop */ = {
 			isa = PBXGroup;
 			children = (
+				AFC38598242FA75000A97FA1 /* Screen.png */,
+				AFC38599242FA75100A97FA1 /* Screen2.png */,
 				AF0EBD77242A8DF400806ED6 /* AppDelegate.swift */,
 				AF0EBD79242A8DF400806ED6 /* SceneDelegate.swift */,
 				AFC38585242E385800A97FA1 /* Login Signup */,
@@ -175,6 +185,8 @@
 		AFC38585242E385800A97FA1 /* Login Signup */ = {
 			isa = PBXGroup;
 			children = (
+				AFC38596242FA2AB00A97FA1 /* SignUp Page.png */,
+				AFC38594242FA26C00A97FA1 /* Login Page.png */,
 				AF0EBD7B242A8DF400806ED6 /* LoginViewController.swift */,
 				AF0EBDA7242A8FC100806ED6 /* SignUpViewController.swift */,
 			);
@@ -324,9 +336,13 @@
 			files = (
 				AFC3858B242E4E4D00A97FA1 /* EssentialsTableViewCell.xib in Resources */,
 				AF0EBD84242A8DF600806ED6 /* LaunchScreen.storyboard in Resources */,
+				AFC38597242FA2AB00A97FA1 /* SignUp Page.png in Resources */,
 				AF0EBD81242A8DF600806ED6 /* Assets.xcassets in Resources */,
+				AFC3859B242FA75100A97FA1 /* Screen2.png in Resources */,
 				AF0EBD7F242A8DF400806ED6 /* Main.storyboard in Resources */,
+				AFC3859A242FA75100A97FA1 /* Screen.png in Resources */,
 				AF0EBDAA242A9BBF00806ED6 /* GoogleService-Info.plist in Resources */,
+				AFC38595242FA26C00A97FA1 /* Login Page.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
